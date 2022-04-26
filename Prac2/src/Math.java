@@ -12,6 +12,9 @@ public class Math{
 		{
 		System.out.println("Success!!!");
 		}
+		else if((num%2==0)&&(num<=100)) {
+			System.out.println("Even!!!");
+		}
 		else 
 			System.out.println("Failure");
 		reader.close();
